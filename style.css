@@ -28,7 +28,7 @@
 body {
   display: flex;
   flex-flow: row;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   /* width: 90vh; */
   height: 100vh;
@@ -40,31 +40,44 @@ body {
 h1 {
   font-family: "Big Shoulders Display", cursive;
   color: var(--color-very-light-gray);
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 p {
   font-family: "Lexend Deca", sans-serif;
   color: var(--color-transparent-white);
+  padding-right: 20px;
+  padding-bottom: 50px;
+  line-height: 1.3rem;
 }
 
-.left {
+#left {
   background: var(--color-bright-orange);
+  border-radius: 10px 0 0 10px;
 }
 
-.middle {
+#middle {
   background: var(--color-dark-cyan);
 }
 
-.right {
+#right {
   background: var(--color-very-dark-cyan);
+  border-radius: 0 10px 10px 0;
+}
+
+.total {
+  width: 235px;
+  height: 360px;
+  padding: 30px;
 }
 
 a {
   display: block;
   border: 2px solid;
-  border-radius: 0.5em;
-  padding: 0.5em 1em;
-  margin: 0.5em 2em;
+  border-radius: 1.5em;
+  padding: 0.9em 1em;
+  margin-right: 6em;
   color: var(--color-very-light-gray);
   text-decoration: none;
   text-align: center;
